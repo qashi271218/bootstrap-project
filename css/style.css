@@ -1,0 +1,260 @@
+.main-heading
+{
+font-size: 200%;
+}
+.main-heading:after
+{
+display: block;
+height: 2px;
+background-color: orange;
+content: " ";
+width: 40%;
+margin: 0 30%;
+}
+.logo
+{
+width: 15%;
+height: 15%;
+}
+.main
+{
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/hero-min.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-attachment: fixed;
+/* height: 650px; */
+position: relative;
+}
+.header-info
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-100%,-50%);
+}
+.weight
+{
+font-weight: 50;
+}
+.btn-1,.btn-2
+{
+border-radius: 20px;
+}
+.mobile
+{
+width: 50%;
+height: 100%;
+}
+.customer
+{
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../img/back-customers-min.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-attachment: fixed;
+height: 650px;
+position: relative;
+}
+.js--wp-1
+{
+opacity: 0;
+animation-duration: 5s;
+}
+.js--wp-1.animated
+{
+opacity: 1;
+}
+
+
+ .fa-spin:hover
+ {
+  animation-delay: 3000s;
+} 
+
+.animate
+{
+	opacity: 0;
+	animation-duration: 5s;
+}
+
+.animate.animat
+{
+	opacity: 1;
+}
+.btn-1
+{
+	opacity: 0;
+	animation-name: button;
+	animation-duration: 3s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+@keyframes button
+{
+	0%
+	{
+opacity: 0;
+}
+100%
+{
+	opacity: 1;
+}
+}
+.btn-2
+{
+	opacity: 0;
+	animation-name: button2;
+	animation-duration: 3s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+}
+@keyframes button2
+{
+	0%
+	{
+opacity: 0;
+}
+100%
+{
+	opacity: 1;
+}
+}
+@media(max-width:468px)
+{
+.navbar-toggler
+{
+position: relative;
+transform: translate(-0%,-100%);
+}
+}
+@media(max-width:574px)
+{
+.weight{
+font-size: 23px;
+}
+}
+@media(max-width:574px)
+{
+.flex{
+display: flex;
+}
+}
+.mfp-fade.mfp-bg {
+opacity: 0;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all 0.15s ease-out;
+transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+opacity: 0;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+opacity: 0;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all 0.15s ease-out;
+transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+opacity: 0;
+}
+@media (min-width: 574px)
+{
+a.popup-gmaps.map
+{
+display:none;
+}
+}
+
+@media (max-width: 574px)
+{
+a.popup-gmaps.map2
+{
+display:none;
+}
+}
+
+@media (max-width: 574px)
+{
+.jumbo
+{
+text-align:justify;
+}
+}
+
+@media (max-width: 574px)
+{
+.text
+{
+font-size:21px;
+}
+}
+
+@media (min-width: 576px)
+{
+.jumbo
+{
+width:50%;
+margin:0 auto;
+}
+}
+
+.faa-pulse
+{
+	animation-delay: 5s;
+}
+
+/* 
+.blob
+{
+	width: 50%;
+	margin: 0 25%;
+	height: 600px;
+	background-image:url('../img/back-customers.jpg');
+	background-size: cover;
+	animation: animate 5s linear infinite;
+
+}
+
+
+@keyframes animate
+{
+	0%,100%
+	{
+	border-radius:64% 36% 27% 73%/55% 58% 42% 45%;
+}
+25%
+{
+    border-radius: 73% 27% 26% 38%/73% 36% 64% 27%;
+}
+50%
+{
+	border-radius: 28% 72% 44% 56%/49% 40% 60% 51%;
+}
+75%
+{
+	border-radius: 40% 60% 70% 30%/47% 62% 38% 53%;
+}
+} */
+
+/* .chart
+{
+height: 165px;
+background-color: orange;
+width: 3%;
+} */
+
+.progress
+{
+
+}
+.progress-bar
+{
+
+}
